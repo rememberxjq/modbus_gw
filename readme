@@ -1,0 +1,12 @@
+# build test
+```bash
+make test=1
+```
+#build real code
+```bash
+make real=1
+```
+## attention
+```bash
+in function "reflash_node_of_table_data", if use test need set #if is true, real mode need set false
+```
